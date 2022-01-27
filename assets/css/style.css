@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    min-width: 320px;
+    background-color: whitesmoke;
+    font: normal 16px Arial, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+main {
+    width: 500px;
+    margin: auto;
+}
+
+input#tarefa {
+    width: 300px;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: rgba(0, 255, 255, 0.253);
+    line-height: 1.5;
+    font-size: 1rem;
+    color: rgba(0, 0, 255, 0.548);
+    border: 1px solid rgba(0, 0, 255, 0.548);
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+div#lista {
+    text-align: left;
+}
